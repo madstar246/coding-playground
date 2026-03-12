@@ -54,9 +54,9 @@ h5 {
 /* Style the card for the header/title card */
 .cardTitle {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
+  padding: 8px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/clouds.jpg");
+  background-image: url("./img/pinkhearts.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -158,8 +158,8 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #000000;
-  background-image: url("./img/catBG.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  background-image: url("./img/pinkhearts2.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
+  color: #d91175;
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }

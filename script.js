@@ -41,16 +41,16 @@ function addText(content) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFun() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addText("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addText("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addText("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addText("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addText("🍟🥨🌮🥗🍱");
+  if (x === "one") {
+    addText("(˶ˆᗜˆ˵)");
+  } else if (x === "two") {
+    addText("(╥﹏╥)");
+  } else if (x === "three") {
+    addText("(¬_¬")");
+  } else if (x === "four") {
+    addText("₍^. .^₎⟆");
+  } else if (x === "five") {
+    addText("⸜(｡˃ ᵕ ˂)⸝♡");
   }
 }
 //end of dropdown function
@@ -58,15 +58,15 @@ function dropdownFun() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "hello hello hi hello hi hi hello",
+  "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  ":3 ^w^ -.- :P",
+  "meow ?????????",
+  "why is this not working",
+  "meow meow meow Meow m",
+  "*hacker voice* I'm in.",
+  "#%$#^@%&$^&%$^#@!%^&*&%^$#@!%^&*%$#@!",
+  "pls work",
 ];
 const sevenSyllables = [
   "cheese makes everything better",
@@ -105,26 +105,27 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "alejandro saab",
+  "aldi mobile",
+  "a cat with homophobia in its eyes",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "bocchi the rock voice actors",
+  "beabadoobee melbourne",
+  "bow emoticon",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "can't just say perchance",
+  "chess online",
+  "castlevania alucard",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "dreamscape docklands",
+  "download youtube video",
+  "dead dead alive but gay meme",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
+  "eclipse today",
+  "est time",
+  "enderman",
 
-  "fridge magnets",
+  "four of cups tarot meaning",
 ];
 //search function (do not edit)
 function changeText(e) {
